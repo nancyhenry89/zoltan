@@ -1,0 +1,373 @@
+.header {
+    float: left;
+    background: #4c4c4c;
+    height: 74px;
+    width: 100%;
+    padding: 10px 46px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 9;
+}
+
+img.logo {
+    width: 142px;
+    height: 55px;
+}
+.fade{
+    float: left;
+    /* top: 100%; */
+    position: relative;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.68);
+    height: 131px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 82px;
+    background: none;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 80%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(80%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+h1 {
+    width: 140px;
+    float: left;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    width: 700px;
+    float: left;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-left: 344px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 14px;
+    line-height: 44px;
+}
+
+ul.socialLinks {
+    float: right;
+    width: 90px;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+}
+
+ul.socialLinks li {
+    list-style-type: none;
+    color: #fff;
+    float: left;
+    margin-left: 20px;
+    font-size: 26px;
+}
+.banner {
+    background: url('../img/banner.png');
+    height: 650px;
+    background-size: cover;
+    position: relative;
+}
+.banner button {
+    left: 50%;
+    position: relative;
+    margin-left: -145px;
+}
+h3.slogan {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    float: left;
+    color: #4d4d4f;
+    font-size: 37px;
+    margin-top: 6px;
+    font-weight: lighter;
+}
+
+button {
+    /* position: relative; */
+    /* top: 70%; */
+    /* left: 50%; */
+    width: 295px;
+    color: #fff;
+    background: #92252b;
+    height: 62px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.person img {
+    width: 224px;
+    border-radius: 50%;
+    height: 217px;
+    /* border: 1px solid; */
+    position: relative;
+    left: 50%;
+    margin-left: -109px;
+}
+
+.person {
+    width: 33%;
+    box-sizing: border-box;
+    padding: 40px;
+    float: left;
+    color: #404142;
+}
+
+.people {
+    width: 90%;
+    margin: 5%;
+    padding: 20px 0;
+    margin-top: 30px;
+    height: 633px;
+    float: left;
+}
+.person button {
+    background: #92252b;
+    color: #fff;
+    height: 40px;
+    float: left;
+    display: block;
+    width: 160px;
+    text-align: center;
+    line-height: 39px;
+    border-radius: 3px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 45px 0;
+}
+
+.sec3 .title {
+    font-size: 42px;
+    width: 650px;
+    margin: 26px auto;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.brief {
+    font-size: 19px;
+    text-align: left;
+    font-weight: bold;
+    height: 60px;
+}
+.sec3 {
+    float: left;
+    width: 100%;
+    background: url('../img/sec3BG.png');
+    color: #fff;
+    padding: 20px 13%;
+    box-sizing: border-box;
+    background-size: cover;
+    height: 565px;
+}
+.sec3 img {
+    float: left;
+    padding-top: 26px;
+    width: 50%;
+}
+
+.sec3 .desc {
+    float: left;
+    padding-left: 80px;
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 18px;
+}
+
+.sec3 button {
+    background: #fff;
+    color: #92252b;
+}
+
+.sec3 p {
+    margin: 23px 11px;
+}
+#sec4 .person {
+    width: 25%;
+}
+
+#sec4 buttom {
+    width: 110px;
+}
+.subscribe {
+    background: #424857;
+    float: left;
+    width: 100%;
+    height: 171px;
+}
+
+.subscribe .title {
+    color: #fff;
+    margin: 33px 0;
+    /* font-weight: bold; */
+    font-family: roboto;
+    font-size: 36px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-style: italic;
+    width: 401px;
+    font-size: 17px;
+}
+
+.subscribe button {
+    background: #fff;
+    color: #424857;
+    width: 219px;
+    margin-left: 30px;
+    height: 35px;
+    font-size: 14px;
+}
+
+.inputs {
+    /* float: left; */
+    width: 48%;
+    margin: 30px auto;
+}
+.footerInfo {
+    width: 86%;
+    margin: 30px 7%;
+    float: left;
+}
+
+section {
+    width: 33%;
+    float: left;
+    padding-left: 43px;
+    box-sizing: border-box;
+}
+
+.footerHead {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 55px;
+    font-family: roboto;
+    letter-spacing: 1px;
+    color: #404040;
+}
+
+section p {
+    text-transform: uppercase;
+    font-family: roboto;
+    margin: 22px 0px;
+    font-size: 25px;
+}
+.like {
+    background: #92252b;
+    color: #fff;
+    height: 43px;
+    border-radius: 3px;
+    padding: 7px;
+    box-sizing: border-box;
+    width: 110px;
+    font-family: roboto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+}
+
+i.fa.fa-linkedin {
+    background: #177eb8;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 50%;
+}
+
+.social i {
+    margin: 0 9px;
+}
+
+.social {
+    margin-top: 15px;
+}
+
+i.fa.fa-google-plus {
+    color: #f14033;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+i.fa.fa-instagram {color: #2a5b83;font-size: 24px;}
+
+i.fa.fa-youtube {
+    color: #db2532;
+    font-size: 25px;
+}
+.contacts {
+    float: left;
+    width: 100%;
+    background: #424857;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-family: roboto;
+    font-size: 12px;
+}
+
+.contacts span {
+    margin: 30px;
+}
+.sans{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.person .title {
+    text-align: left;
+}
+.bold{font-weight: bold}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+
+}
+.cabin{
+    font-family: 'Cabin', sans-serif;
+
+}
+#sec4 > .title {
+    font-size: 33px;
+    font-weight: bold;
+    width: 650px;
+    margin: auto;
+}
+.redBorder {
+    border-bottom: 3px solid #92252b;
+}
