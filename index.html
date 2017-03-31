@@ -1,24 +1,26 @@
 <html>
-
 <head>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU"
         crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
 <link href="https://fonts.googleapis.com/css?family=Cabin|Open+Sans|Roboto" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>
+    <div class="container-fluid">
+        <div class="header row">
+            <h1 class="col-md-2">
                 <img class="logo" src="img/logo.png" />
             </h1>
-            <nav class="sans">
+            <nav class="sans col-md-8">
                 <a href="#"><span class="redBorder">Mag</span>ánszemélyeknek</a>
                 <a href="#">Szervezeteknek</a>
                 <a href="#">Cégeknek</a>
             </nav>
-            <ul class="socialLinks">
+            <ul class="socialLinks col-md-2">
                 <li class="fb">
                     <i class="fa fa-facebook-square" aria-hidden="true"></i>
                 </li>
@@ -27,92 +29,94 @@
                 </li>
             </ul>
         </div>
-        <div class="banner">
-            <h3 class="slogan cabin">Játszmamentes, harmonikus kapcsolatok</h3>
-            <div class="fade"><button class="sans bold">Tudj meg többet!</button></div>
+        <div class="banner row">
+            <h3 class="slogan cabin col-md-12">Játszmamentes, harmonikus kapcsolatok</h3>
+            <div class="grad col-md-12"><button class="sans bold">Tudj meg többet!</button></div>
         </div>
-        <div class="people">
-            <div class="person">
+        <div class="people row">
+            <div class="person col-md-4">
                 <img src="img/per1.png" />
                 <div class="title roboto"><span class="redBorder">Mag</span>ánszemélyeknek</div>
                 <div class="brief sans" >Kapcsolatjavítás és konfliktuskezelés tréning a Gordon modell és a Tranzakció-analízis eszközeivel</div>
                 <button  class="sans">Érdekel</button>
             </div>
-            <div class="person">
+            <div class="person col-md-4">
                 <img src="img/per2.png" />
                 <div class="title roboto"><span class="redBorder">Sze</span>rvezeteknek</div>
                 <div class="brief sans">A Gordon & T.A. Kft. segíti a szervezetek munkatársait abban, hogy hatékonyan kommunikáljanak.</div>
                 <button class="sans">Érdekel</button>
             </div>
-            <div class="person">
+            <div class="person col-md-4">
                 <img src="img/per3.png" />
                 <div class="title roboto"><span class="redBorder">Cég</span>eknek</div>
                 <div class="brief sans">Hatékony munkacsoporttá alakítjuk az egymás mellett dolgozó munkatársakat, szakembereket</div>
                 <button class="sans">Érdekel</button>
             </div>
         </div>
-        <div class="sec3">
-            <h3 class="title roboto">Miért érdemes</h3>
-            <h3 class="title roboto">a Gordon TA-t választani?</h3>
-            <img src="img/sec3Img.png" />
-            <div class="desc sans">
+        <div class="sec3 row">
+            <h3 class="title roboto col-md-12">Miért érdemes</h3>
+            <h3 class="title roboto col-md-12">a Gordon TA-t választani?</h3>
+            <div class="row">
+            <img class="col-md-6" src="img/sec3Img.png" />
+            <div class="desc sans col-md-6">
                 <p>Csapatvezetés -hatékony együttműködés elérése</p>
                 <p>Különleges módszerek alkalmazása</p>
                 <p>Oktatóink a szakma kiválóságai</p>
                 <p>Úgy segítünk serkenteni a közösségformálást, hogy az feltöltődést nyújtson, a jobb együttműködésért</p>
                 <button>További információk</button>
             </div>
+          </div>
         </div>
-        <div id="sec4" class="people">
-            <div class="title roboto">Aktuálisan induló kommunikációs
-tréningek és képzések</div>
-            <div class="person">
+        <div id="sec4" class="people row">
+            <div class="title roboto col-md-12">Aktuálisan induló </div>
+            <div class="title roboto col-md-12">kommunikációs tréningek és képzések</div>
+            <div class="person col-md-3">
                 <img src="img/per4.png" />
                 <div class="title roboto"><span class="redBorder">feb</span>ruár 10.</div>
                 <div class="brief">Játszmák a vezetői gyakorlatban</div>
                 <button class="sans">Jelentkezem</button>
             </div>
-            <div class="person">
+            <div class="person col-md-3">
                 <img src="img/per5.png" />
                 <div class="title roboto"><span class="redBorder">már</span>cius 5.</div>
                 <div class="brief">Vezetői készségek fejlesztése
                 </div>
                 <button class="sans">Jelentkezem</button>
             </div>
-            <div class="person">
+            <div class="person col-md-3">
                 <img src="img/per6.png" />
                 <div class="title roboto"><span class="redBorder">ápr</span>ilis 14.</div>
                 <div class="brief">Kapcsolatjavítás és konfliktuskezelés tréning
                 </div>
                 <button>Jelentkezem</button>
             </div>
-            <div class="person">
+            <div class="person col-md-3">
                 <img src="img/per7.png" />
                 <div class="title roboto"><span class="redBorder">ápr</span>ilis 18.</div>
                 <div class="brief">Gordon modell és a Tranzakció-analízis </div>
                 <button class="sans">Jelentkezem</button>
             </div>
         </div>
-        <div class="subscribe">
-            <div class="title">Iratkozzon fel hírlevelünkre!</div>
-            <div class="inputs">
-                <input placeholder="Az Ön e-mail címe"/>
-                <button>Feliratkozom</button>
+        <div class="subscribe row">
+            <div class="title col-md-12">Iratkozzon fel hírlevelünkre!</div>
+            <div class="inputs row">
+                <div class="col-md-8"><input  placeholder="Az Ön e-mail címe"/></div>
+                <button class="col-md-4">Feliratkozom</button>
             </div>
         </div>
-        <div class="footer">
-            <div class="footerInfo">
-                <section>
+        <div class="footer row">
+            <div class="footerInfo row">
+                <section class="col-md-4">
                     <img src="img/footerLogo.png"/>
                     <div class="desc">A Gordon & TA 2004-ben alakult, ekkor léptünk be az üzleti élet területére – több, mint tíz éves közös munkával, tapasztalattal és barátsággal a hátunk mögött.</div>
                  </section>
-                <section>
+                <section class="col-md-4">
                     <div class="footerHead"><span class="redBorder">kép</span>zéseink</div>
                     <p>magánszemélyeknek</p>
                     <p>szervezeteknek</p>
                     <p>cégeknek</p>
                 </section>
-                <section>
+                <section class="col-md-4">
                     <div class="footerHead"><span class="redBorder">ról</span>unk</div>
                     <p>csapatunk</p>
                     <p>referenciáink</p>
@@ -128,11 +132,12 @@ tréningek és képzések</div>
                     </div>
                 </section>
             </div>
-            <div class="contacts">
+            <div class="contacts row">
                 <span>info@gordonta.hu</span>
                 <span>+36 12 345 6789<span>
             </div>
         </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
